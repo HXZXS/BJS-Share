@@ -168,7 +168,7 @@ foreach ($name in $ProcessNames) {
 # 如果按名称没找到，再按路径匹配
 if ($found.Count -eq 0) {
     $alt = Get-Process -ErrorAction SilentlyContinue | Where-Object {
-        $_.Path -and ($_.Path -like "*Better-JavaScript*" -or $_.Path -like "*BJS developer key*")
+        $_.Path -and ($_.Path -like "*BJS Share*" -or $_.Path -like "*BJS Share.exe BJS Share 2.3.0 LAN file sharing tool*")
     }
     $found = @($alt)
 }
