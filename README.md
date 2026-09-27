@@ -1,5 +1,8 @@
 # BJS-Share
 BJS Share 局域网分享程序
+
+# https://bjs.rth1.xyz/Share.html
+
 ## 快速开始
 ### 一键部署
 按 Windows+R 启动 [运行]
