@@ -2,7 +2,7 @@
 $ProcessNames = @('BJS Share', 'BJS Share.exe BJS Share 2.3.0 LAN file sharing tool')
 $InstallerName = 'BJS_Setup.exe'
 $InstallDir  = 'C:\Program Files\Better-JavaScript-Share'
-$ExeName     = 'Better JavaScript Share.exe'
+$ExeName     = 'BJS Share.exe'
 $LaunchAfterInstall = $true
 
 $DownloadUrls = @(
